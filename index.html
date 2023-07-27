@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxes</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 10px;
+            position: sticky;
+            top: 0%;
+           
+
+        }
+        ul li{
+            display: inline-block;
+            text-align: center;
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            font-weight: 800;
+            text-align: center;
+            width: 150px;
+        }
+        .l :hover{
+            color: tomato;
+         }
+         .container{
+          
+           
+         }
+         .content {
+         
+            align-content: center;
+            
+         }
+         .cont1{
+            background-color: rgb(227, 222, 168);
+            text-align: center;
+            text-align: justify;
+            font-size: larger;
+            margin: 15px;
+            padding: 10px;
+           margin-left: 10%;
+            border-radius: 8px;
+            font-weight: 600;
+            line-height: 15px;
+            float: left;
+         }
+         h1,h2{
+            text-align: center;
+         }
+         .s:hover{
+            box-shadow: 10px 5px 10px 5px grey;
+         }
+         .xyz{
+            margin-left: 80px;
+            background-color: blueviolet;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+         }
+         .x:hover{
+            background-color: red;
+            color: white;
+           
+         }
+         footer{
+            clear: left;
+            margin-top: 45px;
+            padding:13px;
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            font-weight: 300;
+         }
+        
+
+    </style>
+</head>
+<body>
+      <div class="container">
+        
+        <nav class="n1">
+          <ul>
+            <li class="l"><a href="#">Home</a></li>
+            <li class="l"><a href="#">About</a></li>
+            <li class="l"><a href="#">Service</a></li>
+            <li class="l"><a href="#">Contact us</a></li>
+            
+
+          </ul>
+        </nav>
+        <div class="content">
+            <div class="cont1 s">
+               
+               <h1>Basic Pack</h1>
+               <h2>&#8377;200</h2>
+               
+
+               <ul class="a">
+                <li>Single user</li><br><br>
+                <li>Quality:720P</li><br><br>
+                <li>Only for Smartphones</li>
+
+               </ul>
+               <input class= "xyz x"type="submit" value="Subscribe"/>
+            </div>
+            <div class="cont1 s">
+                <h1>Super Pack</h1>
+                <h2>&#8377;400</h2>
+                
+ 
+                <ul class="a">
+                 <li>Two user</li><br><br>
+                 <li>Quality:720P</li><br><br>
+                 <li>Only for Smartphones</li>
+                
+                </ul>
+                <input class= "xyz x"type="submit" value="Subscribe"/>
+            </div>
+            <div class="cont1 s">
+                <h1>Premium Pack</h1>
+                <h2>&#8377;500</h2>
+                
+ 
+                <ul class="a">
+                 <li>Ten user</li><br><br>
+                 <li>Quality:4K UHD</li><br><br>
+                 <li>All Devices Supported</li>
+ 
+                </ul>
+                <input class= "xyz x"type="submit" value="Subscribe"/>
+            </div>
+        </div>
+        <footer>
+Copyright &copy; All Rights Reserved
+        </footer>
+      </div>
+    
+</body>
+</html>
